@@ -7,7 +7,7 @@ require 'active_record'
 # Use `binding.pry` anywhere in this script for easy debugging
 require 'pry'
 
-# Connect to a sqlite3 database
+# Connect to a postgresql database
 # If you feel like you need to reset it, simply delete the file sqlite makes
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
